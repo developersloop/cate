@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-top: 13px;
+  margin: 0 210px 0 210px;
+  .list {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    &__item {
+      font-family: 'Luckiest Guy';
+      font-size: 20px;
+      line-height: 10px;
+      color: #fff;
+    }
+    &__item--active {
+      color: #6D4BF8;
+      padding-right: 100px;
+    }
+    &__item--none {
+      list-style-type: none;
+      list-style: none;
+    }
+  }
+}

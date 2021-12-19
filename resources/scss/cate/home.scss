@@ -1,0 +1,57 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 245px 0 254px;
+  min-height: inherit;
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .row {
+      &__miolo {
+        display: flex;
+        flex-flow: column nowrap;
+        padding-bottom: 20px;
+        &__title {
+          text-align: center;
+          width: 426px;
+          height: 92px;
+          font-family: 'Luckiest Guy';
+          font-size: 60px;
+          line-height: 70px;
+          color: #FFFFFF;
+        }
+        &__subtitle {
+          @extend .row__miolo__title;
+          text-align: right;
+          width: 419px;
+          height: 119px;
+          font-size: 20px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+  &__button {
+    margin-left: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    background: #6D4BF8;
+    border: 1px solid #4F2ED5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Luckiest Guy';
+    font-size: 14px;
+    line-height: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  &__img {
+    padding-left: 113px; 
+    margin-top: -48px;
+  }
+}

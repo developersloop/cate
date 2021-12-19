@@ -1,0 +1,17 @@
+{
+  "name": "cate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass --watch resources/scss/app.scss:public/css/app.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.45.0"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.0"
+  }
+}
